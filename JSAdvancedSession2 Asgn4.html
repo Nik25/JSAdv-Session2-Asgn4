@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JSAdv-Session2-Assignment4</title>
+
+<script>
+	function outer(name) {
+		var n = name;
+		function inner() {
+			alert("Name from inner function: " + n);
+		}
+		inner();
+	}
+	outer("Homer Simpson")
+</script>
+</head>
+<body>
+</body>
+</html>
